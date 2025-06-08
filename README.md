@@ -1,111 +1,127 @@
-# Theorem: Burden-to-Purpose Threshold (BPT)
+# ?? Theorem: Burden-to-Purpose Threshold (BPT)
 
-**Code:** HME-SOC-01  
-**Domain:** Human Collapse Psychology Â· Symbolic Systems  
-**Version:** 1.0  
-**Status:** Peer Review Ready Â· Public Experiment Invited
-
----
-
-## Summary
-
-The Burden-to-Purpose Threshold (BPT) theorem proposes that collapse in human or symbolic systems does not result from absolute stress alone, but from a relative failure of meaning to carry that stress. When subjective burden exceeds perceived purpose for longer than a critical threshold, collapse occurs.
+**Code**: HME-SOC-01  
+**Domain**: Human Psychology · Symbolic Systems  
+**Author**: Benjamin Dickerson  
+**Version**: 1.0  
+**Status**: Ready for External Integration  
+**License**: MIT
 
 ---
 
-## Formal Statement
+## ?? Summary
+
+The **Burden-to-Purpose Threshold (BPT)** theorem proposes that system collapse occurs not due to high stress, but due to insufficient meaning to sustain it. If **subjective burden** exceeds **perceived purpose** for longer than a critical duration, the system undergoes failure.
+
+---
+
+## ?? Formal Theorem Statement
 
 Let:
 
-- \( C(t) \): Internal contradiction over time  
-- \( B(t) \): Subjective burden (emotional/psychological load)  
-- \( P(t) \): Perceived purpose (coherence, meaning)  
-- \( \theta \): Collapse latency threshold (time before structural failure)  
+- \( C(t) \): Internal contradiction
+- \( B(t) \): Subjective burden
+- \( P(t) \): Perceived purpose
+- \( \theta \): Collapse latency threshold
 
-**Collapse Condition:**
+**Collapse condition**:
 
-$$
-\exists t > \theta \; \text{such that} \; B(t) > P(t) \Rightarrow \text{Collapse}(C)
-$$
-
----
-
-## Collapse Dynamics
-
-- Contradiction is sustainable only while \( P(t) > B(t) \)  
-- Once \( B(t) > P(t) \) persists longer than \( \theta \), collapse is abrupt  
-- Collapse is nonlinear â€” more like a tipping point than a gradual decline  
-- Observable forms include burnout, resignation, ideological shift, or total disengagement
+\[
+\exists t > \theta \quad \text{such that} \quad B(t) > P(t) \quad \Rightarrow \quad \text{Collapse}(C)
+\]
 
 ---
 
-## Applications
+## ?? Definitions
 
-- Psychological collapse and burnout (e.g., educators, medics, activists)  
-- Symbolic agent stability under contradiction  
-- Narrative failure in AI systems  
-- Institutional trust collapse (when P(t) â‰ˆ legitimacy perception)
-
----
-
-## Empirical Testing Framework
-
-### Human Subject Testing
-
-- Instruments: Purpose-in-Life scale (PIL), PHQ-9, NASA-TLX  
-- Population: High-stress fields (healthcare, education, military)  
-- Metric: Time-series of P(t), B(t) to estimate \( \theta \)
-
-### Symbolic Agent Simulation
-
-- Define agents with contradiction function \( C(t) \)  
-- Simulate varying \( B(t) \), \( P(t) \)  
-- Inject meaning loss or moral strain  
-- Measure latency and collapse behavior
+| Symbol         | Meaning                                               |
+|----------------|--------------------------------------------------------|
+| \( C(t) \)     | Internal contradiction (e.g., moral or logical strain) |
+| \( B(t) \)     | Subjective burden (emotional/psychological load)       |
+| \( P(t) \)     | Perceived purpose or meaning                           |
+| \( \theta \)   | Time threshold before collapse                         |
+| Collapse\(C\)  | System failure: burnout, shutdown, inversion           |
 
 ---
 
-## Predictive Outcomes
+## ?? Collapse Dynamics
 
-| Prediction                                | Observable Evidence                    |
-|------------------------------------------|----------------------------------------|
-| Collapse precedes high burden            | P(t) drop is more predictive than B(t) |
-| Narrative reinforcement extends \( \theta \) | Systems last longer with meaning injection |
-| Collapse curve is nonlinear              | Sudden drop post-threshold             |
-| Social buffers modulate P(t), B(t)       | Community raises purpose, reduces burden |
+- System remains stable while \( P(t) > B(t) \)
+- Collapse occurs if \( B(t) > P(t) \) persists longer than \( \theta \)
+- Transition is nonlinear and may appear sudden
 
 ---
 
-## Limitations
+## ?? Empirical Framework
 
-- Purpose and burden are proxy-based (subjective/self-reported)  
-- \( \theta \) must be inferred indirectly from system latency  
-- Cultural or institutional dynamics not yet formalized in this model  
-- Economic or external buffer layers not modeled in this version
+### A. Human Subject Testing
 
----
+- Metrics: Purpose-in-Life (PIL), PHQ-9, NASA-TLX  
+- Subjects: Educators, medics, soldiers, activists  
+- Method: Track \( B(t) \), \( P(t) \) over time and infer \( \theta \)
 
-## Related Theories
+### B. Symbolic Agent Simulation
 
-| Domain                 | Aligned Concept                         |
-|------------------------|------------------------------------------|
-| Existential Psychology | Frankl: â€œMeaning buffers sufferingâ€      |
-| Cybernetics            | Collapse = loss of dynamic stability     |
-| Burnout Theory         | Adds symbolic and narrative perspective  |
-| Collapse Theory        | Applies to identity and ideological systems |
-| Cognitive Science      | Links contradiction to motivational loss |
+- Model agents with \( C(t) \), \( B(t) \), \( P(t) \)  
+- Introduce contradiction shocks or purpose erosion  
+- Observe collapse curve, estimate \( \theta \)
 
 ---
 
-## Conclusion
+## ?? Predictions
 
-The BPT theorem reframes collapse as a failure of sustained meaning rather than a breakdown of resilience.  
-Meaning acts as a structural buffer â€” when it erodes, systems give way.
-
-> Purpose â€” not stamina â€” is the critical variable in collapse resilience.
+| Prediction                                 | Observable Indicator                       |
+|--------------------------------------------|--------------------------------------------|
+| Meaning loss precedes burnout              | Decline in \( P(t) \) before collapse       |
+| Purpose reinforcement delays collapse      | Increased \( P(t) \) raises \( \theta \)    |
+| Collapse is nonlinear past threshold       | Sudden disengagement or failure             |
+| Social support shifts burden/purpose ratio | \( B(t) \downarrow \), \( P(t) \uparrow \)  |
 
 ---
 
-## License
+## ?? Theoretical Integration
 
-MIT â€” Free for use in research, AI alignment, psychology, education, and systems design.
+| Domain               | Related Concept                             |
+|----------------------|---------------------------------------------|
+| Existential Psychology | “Meaning buffers suffering” (Frankl)      |
+| Cybernetics          | Collapse as dynamic instability             |
+| Burnout Research     | Narrative-based collapse modeling           |
+| Collapse Theory      | Applies to belief and identity systems      |
+| Cognitive Science    | Motivation degradation from contradiction   |
+
+---
+
+## ?? Limitations
+
+- \( P(t) \), \( B(t) \) are often self-reported or simulated  
+- \( \theta \) is individual-specific and inferred indirectly  
+- Group-level collapse modeling not yet implemented  
+- Lacks integration with economic/environmental factors
+
+---
+
+## ?? Suggested Visual Models
+
+- Time plots of \( P(t), B(t), C(t) \) across system lifespan  
+- Collapse envelope modeling with and without reinforcement  
+- Comparison between high-\( \theta \) vs. low-\( \theta \) systems
+
+---
+
+## ?? References
+
+- Frankl (1946) — *Man’s Search for Meaning*  
+- Maslach & Leiter (1997) — Burnout theory  
+- Deci & Ryan (2000) — Self-Determination Theory  
+- Yalom (1980) — Existential Vacuum  
+- Demerouti et al. (2001) — Job Demands–Resources Model
+
+---
+
+## ? Conclusion
+
+The **BPT theorem** reframes collapse as a measurable imbalance between **burden** and **purpose**. Function persists while meaning exceeds load. Failure emerges not from weakness, but from insufficient justification to sustain the strain.
+
+\[
+\textit{Meaning sustains function — not capacity alone.}
+\]
