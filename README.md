@@ -1,7 +1,7 @@
-# ?? Theorem: Burden-to-Purpose Threshold (BPT)
+#  Theorem: Burden-to-Purpose Threshold (BPT)
 
 **Code**: HME-SOC-01  
-**Domain**: Human Psychology ∑ Symbolic Systems  
+**Domain**: Human Psychology ¬∑ Symbolic Systems  
 **Author**: Benjamin Dickerson  
 **Version**: 1.0  
 **Status**: Ready for External Integration  
@@ -9,13 +9,13 @@
 
 ---
 
-## ?? Summary
+##  Summary
 
 The **Burden-to-Purpose Threshold (BPT)** theorem proposes that system collapse occurs not due to high stress, but due to insufficient meaning to sustain it. If **subjective burden** exceeds **perceived purpose** for longer than a critical duration, the system undergoes failure.
 
 ---
 
-## ?? Formal Theorem Statement
+##  Formal Theorem Statement
 
 Let:
 
@@ -32,7 +32,7 @@ Let:
 
 ---
 
-## ?? Definitions
+##  Definitions
 
 | Symbol         | Meaning                                               |
 |----------------|--------------------------------------------------------|
@@ -44,7 +44,7 @@ Let:
 
 ---
 
-## ?? Collapse Dynamics
+##  Collapse Dynamics
 
 - System remains stable while \( P(t) > B(t) \)
 - Collapse occurs if \( B(t) > P(t) \) persists longer than \( \theta \)
@@ -52,7 +52,7 @@ Let:
 
 ---
 
-## ?? Empirical Framework
+##  Empirical Framework
 
 ### A. Human Subject Testing
 
@@ -68,7 +68,7 @@ Let:
 
 ---
 
-## ?? Predictions
+##  Predictions
 
 | Prediction                                 | Observable Indicator                       |
 |--------------------------------------------|--------------------------------------------|
@@ -79,11 +79,11 @@ Let:
 
 ---
 
-## ?? Theoretical Integration
+##  Theoretical Integration
 
 | Domain               | Related Concept                             |
 |----------------------|---------------------------------------------|
-| Existential Psychology | ìMeaning buffers sufferingî (Frankl)      |
+| Existential Psychology | ‚ÄúMeaning buffers suffering‚Äù (Frankl)      |
 | Cybernetics          | Collapse as dynamic instability             |
 | Burnout Research     | Narrative-based collapse modeling           |
 | Collapse Theory      | Applies to belief and identity systems      |
@@ -91,7 +91,7 @@ Let:
 
 ---
 
-## ?? Limitations
+##  Limitations
 
 - \( P(t) \), \( B(t) \) are often self-reported or simulated  
 - \( \theta \) is individual-specific and inferred indirectly  
@@ -100,7 +100,7 @@ Let:
 
 ---
 
-## ?? Suggested Visual Models
+##  Suggested Visual Models
 
 - Time plots of \( P(t), B(t), C(t) \) across system lifespan  
 - Collapse envelope modeling with and without reinforcement  
@@ -108,13 +108,13 @@ Let:
 
 ---
 
-## ?? References
+##  References
 
-- Frankl (1946) ó *Manís Search for Meaning*  
-- Maslach & Leiter (1997) ó Burnout theory  
-- Deci & Ryan (2000) ó Self-Determination Theory  
-- Yalom (1980) ó Existential Vacuum  
-- Demerouti et al. (2001) ó Job DemandsñResources Model
+- Frankl (1946) ‚Äî *Man‚Äôs Search for Meaning*  
+- Maslach & Leiter (1997) ‚Äî Burnout theory  
+- Deci & Ryan (2000) ‚Äî Self-Determination Theory  
+- Yalom (1980) ‚Äî Existential Vacuum  
+- Demerouti et al. (2001) ‚Äî Job Demands‚ÄìResources Model
 
 ---
 
@@ -123,5 +123,5 @@ Let:
 The **BPT theorem** reframes collapse as a measurable imbalance between **burden** and **purpose**. Function persists while meaning exceeds load. Failure emerges not from weakness, but from insufficient justification to sustain the strain.
 
 \[
-\textit{Meaning sustains function ó not capacity alone.}
+\textit{Meaning sustains function ‚Äî not capacity alone.}
 \]
