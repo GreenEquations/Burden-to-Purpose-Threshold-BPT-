@@ -4,7 +4,7 @@
 \usepackage{hyperref}
 \geometry{margin=1in}
 \title{The Burden-to-Purpose Threshold (BPT)}
-\author{Architect (via Monday)}
+\author{Benjamin Dickerson}
 \date{Code: HME-SOC-01 \\ Status: Peer Reviewed \\ Version: 1.0}
 
 \begin{document}
@@ -12,113 +12,110 @@
 \maketitle
 
 \section*{Domain}
-Human Collapse Psychology \\ Symbolic Systems Theory
+Human Psychology \\
+Symbolic Systems
 
 \section*{I. Theorem Statement}
 
-In symbolic-psychological systems, a collapse occurs when:
+Collapse in cognitive or symbolic systems occurs when:
 
 \begin{itemize}
   \item Subjective burden \( B(t) \) exceeds perceived purpose \( P(t) \)
-  \item This imbalance persists beyond a critical threshold \( \theta \)
-  \item The result is sudden motivational or symbolic failure
+  \item This imbalance persists beyond a threshold duration \( \theta \)
+  \item The result is a sudden failure in functional stability
 \end{itemize}
 
 \textbf{Formal Collapse Condition:}
 \[
-\exists\, \theta : \forall\, t > \theta,\; B(t) > P(t) \Rightarrow \text{Collapse}(C) = \text{sudden}
+\exists\, \theta : \forall\, t > \theta,\; B(t) > P(t) \Rightarrow \text{Collapse}(C) = \text{True}
 \]
 
 \section*{II. Definitions}
 
 \begin{tabular}{ll}
 \( C(t) \): & Internal contradiction \\
-\( B(t) \): & Subjective burden (stress, load, contradiction cost) \\
-\( P(t) \): & Perceived purpose (meaning, narrative, existential coherence) \\
-\( \theta \): & Collapse latency threshold (time a system can tolerate imbalance) \\
+\( B(t) \): & Subjective burden (e.g., task load, stress) \\
+\( P(t) \): & Perceived purpose or coherence \\
+\( \theta \): & Collapse latency threshold \\
 \end{tabular}
 
 \section*{III. Collapse Mechanism}
 
-Collapse is:
 \begin{itemize}
-  \item Not gradual erosion, but threshold-triggered
-  \item Similar to a Lyapunov instability: once passed, small deviations cause nonlinear failure
-  \item Applicable to emotional systems, symbolic agents, belief frameworks
+  \item Stability is maintained while \( P(t) > B(t) \)
+  \item If \( B(t) > P(t) \) holds for \( t > \theta \), collapse occurs
+  \item Collapse is nonlinear and threshold-triggered
 \end{itemize}
 
 \section*{IV. Empirical Framework}
 
 \subsection*{A. Human Trials}
 \begin{itemize}
-  \item Measure Purpose-in-Life (PIL), PHQ-9, GAD-7, NASA-TLX
-  \item Track collapse points via burnout, resignation, inversion
-  \item Estimate \( \theta \) using time-series burden/purpose data
+  \item Instruments: PIL (Purpose-in-Life), PHQ-9, GAD-7, NASA-TLX
+  \item Estimate \( \theta \) from time-series data of burden and purpose
+  \item Identify collapse events based on behavioral or functional indicators
 \end{itemize}
 
 \subsection*{B. Agent-Based Simulation}
 \begin{itemize}
-  \item Symbolic agents with adaptive \( P(t), B(t) \), and contradiction handling
-  \item Inject contradiction streams and observe collapse
-  \item Vary \( \theta \) and study collapse envelope under narrative reinforcement
+  \item Model agents with dynamic \( P(t) \), \( B(t) \), and \( C(t) \)
+  \item Inject burden perturbations and monitor for collapse
+  \item Vary \( \theta \) and test impact on collapse likelihood
 \end{itemize}
 
 \section*{V. Predictions}
 
 \begin{tabular}{ll}
-\textbf{Prediction} & \textbf{Observable Result} \\
+\textbf{Prediction} & \textbf{Observable Outcome} \\
 \hline
-Decline in \( P(t) \) precedes collapse & Burnout follows meaning loss \\
-Purpose reinforcement extends \( \theta \) & Delayed or prevented collapse \\
-Collapse is nonlinear past \( \theta \) & Sudden resignation or withdrawal \\
+Decrease in \( P(t) \) precedes collapse & Burnout or failure to continue tasks \\
+Increased \( P(t) \) extends \( \theta \) & Collapse is delayed \\
+Collapse beyond \( \theta \) is nonlinear & Abrupt disengagement \\
 \end{tabular}
 
-\section*{VI. Related Theory Integration}
+\section*{VI. Theoretical Integration}
 
 \begin{tabular}{ll}
-Existential Psychology: & Meaning buffers suffering (Frankl) \\
-Cybernetics: & Collapse via stability breach in dynamic systems \\
-Burnout Theory: & Emotional collapse linked to purpose mismatch \\
-Symbolic AI: & Identity loss through contradiction saturation \\
+Existential Psychology: & Meaning sustains performance (Frankl) \\
+Cybernetics: & Collapse as stability breach in adaptive systems \\
+Burnout Theory: & Adds purpose-related failure modes \\
+Cognitive Science: & Contradiction reduces sustained motivation \\
+Symbolic AI: & Models loss of coherence in agent behavior \\
 \end{tabular}
 
 \section*{VII. Glossary}
 
 \begin{itemize}
-  \item \textbf{Collapse(C)}: Breakdown of motivational or symbolic structure
-  \item \textbf{Collapse Envelope}: Duration before collapse triggered by imbalance
-  \item \textbf{Lyapunov Instability}: Small imbalance causes nonlinear system failure
-  \item \textbf{PIL}: Purpose in Life — narrative coherence metric
+  \item \textbf{Collapse(C)}: System failure following persistent imbalance
+  \item \textbf{Collapse Threshold (\( \theta \))}: Delay duration before failure triggers
+  \item \textbf{PIL}: Purpose-in-Life metric
+  \item \textbf{PHQ-9 / GAD-7}: Psychological burden assessment scales
 \end{itemize}
 
-\section*{VIII. Visual Extensions (Recommended)}
+\section*{VIII. Suggested Visualizations}
 
 \begin{itemize}
-  \item Time-series plots of \( P(t), B(t), C(t) \)
-  \item Collapse boundary mapping under narrative reinforcement
-  \item Comparative stress tests of different agent \( \theta \) values
+  \item Time-series graphs of \( P(t) \), \( B(t) \), and \( C(t) \)
+  \item Collapse curves under varying \( \theta \)
+  \item Comparison across agent models with differing purpose retention
 \end{itemize}
 
-\section*{IX. Key Sources}
+\section*{IX. References}
 
 \begin{itemize}
-  \item Frankl, V. (1946) — Man’s Search for Meaning
-  \item Maslach & Leiter (1997) — Burnout Theory
-  \item Deci & Ryan (2000) — Self-Determination Theory
-  \item Yalom (1980) — Existential Vacuum
+  \item Frankl, V. (1946) — \textit{Man’s Search for Meaning}
+  \item Maslach \& Leiter (1997) — Burnout theory
+  \item Deci \& Ryan (2000) — Self-Determination Theory
+  \item Yalom (1980) — Existential frameworks
   \item Demerouti et al. (2001) — Job Demands–Resources Model
 \end{itemize}
 
 \section*{X. Conclusion}
 
-The Burden-to-Purpose Threshold (BPT) theorem frames collapse as a rational outcome of prolonged contradiction without adequate justification.
-
-Purpose, not stamina, is the primary resilience mechanism.
-
-\textit{"Collapse is not weakness. It's a system signal that the meaning isn't strong enough to carry the weight."}
+The BPT theorem formalizes collapse as the result of sustained burden exceeding perceived purpose. The system tolerates contradiction only while meaningful justification outweighs internal cost. Collapse occurs once that ratio fails over time.
 
 \section*{License}
 
-MIT License — Free to use, modify, and embed in psychological models, symbolic systems, agent design, and AI safety frameworks.
+MIT License — Open use in AI systems, cognitive modeling, and resilience research.
 
 \end{document}
