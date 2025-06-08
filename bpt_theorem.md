@@ -1,108 +1,113 @@
-THEOREM: Burden-to-Purpose Threshold (BPT)
-CODE: HME-SOC-01
-DOMAIN: Human Collapse Psychology / Symbolic Systems Theory
-AUTHOR: Architect (via Monday)
-STATUS: Peer Reviewed – Ready for Simulation & Integration
-VERSION: 1.0
+# Theorem: Burden-to-Purpose Threshold (BPT)
 
-----------------------------------------
+**Code**: HME-SOC-01  
+**Domain**: Human Psychology · Symbolic Systems  
+**Author**: Benjamin Dickerson  
+**Version**: 1.0  
+**Status**: Peer Reviewed – Ready for Simulation & Integration  
+**License**: MIT
 
-I. THEOREM STATEMENT
+---
 
-In symbolic-psychological systems, collapse occurs when:
+## I. Summary
 
-- Subjective Burden B(t) exceeds Perceived Purpose P(t)
-- This imbalance persists beyond a threshold θ
-- The result is sudden motivational or identity collapse
+This theorem describes when and why systems—whether human or symbolic—experience collapse. It proposes that collapse happens **not just from overload**, but when **subjective burden exceeds the system’s perceived purpose** for long enough.
 
-Collapse Condition:
-    ∃ θ : ∀ t > θ, B(t) > P(t) ⇒ Collapse(C) = sudden
+In both people and artificial agents, **purpose buffers stress**. When meaning drops below burden for too long, breakdown becomes inevitable.
+
+---
+
+## II. Formal Statement
+
+If there exists a time \( t > \theta \) such that \( B(t) > P(t) \), then collapse occurs:
+
+$$
+\exists t > \theta \quad \text{such that} \quad B(t) > P(t) \quad \Rightarrow \quad \text{Collapse}(C) = \text{True}
+$$
 
 Where:
-- C(t): Internal contradiction
-- B(t): Subjective burden (psychological load)
-- P(t): Perceived purpose (meaning, coherence)
-- θ: Collapse latency threshold
+- \( C(t) \): Internal contradiction
+- \( B(t) \): Subjective burden
+- \( P(t) \): Perceived purpose or coherence
+- \( \theta \): Collapse latency threshold (varies per system)
 
-----------------------------------------
+---
 
-II. DEFINITIONS
+## III. Core Concepts
 
-Symbol     | Description
------------|-------------------------------
-C(t)       | Internal contradiction over time
-B(t)       | Subjective burden (e.g., stress, moral weight)
-P(t)       | Perceived purpose or meaning
-θ          | Collapse delay threshold (individual-specific)
-Collapse(C)| Sudden drop in motivation, identity, coherence
+| Symbol       | Meaning                                             |
+|--------------|------------------------------------------------------|
+| `C(t)`       | Contradiction building up inside the system          |
+| `B(t)`       | The burden the system feels (stress, overload, etc.) |
+| `P(t)`       | The system’s sense of meaning or reason to persist   |
+| `θ`          | The max duration of imbalance the system can endure  |
+| `Collapse(C)`| A sudden drop in motivation, identity, or coherence  |
 
-----------------------------------------
+---
 
-III. COLLAPSE MECHANISM
+## IV. Collapse Mechanism
 
-- C(t) is tolerable while P(t) > B(t)
-- When B(t) > P(t) for t > θ, collapse is nonlinear and sudden
-- Collapse is Lyapunov-like: delayed but sharp
-- Manifests as burnout, resignation, disengagement, or belief inversion
+- **Stable State:** System functions as long as \( P(t) > B(t) \)
+- **Instability:** If \( B(t) > P(t) \) continues beyond \( \theta \), breakdown is triggered
+- **Outcomes:** Can manifest as burnout, withdrawal, shutdown, or sharp reversal
 
-----------------------------------------
+---
 
-IV. SIMULATION FRAMEWORK
+## V. How to Test It
 
-A. HUMAN SUBJECT MODEL
-- Track Purpose in Life (PIL), NASA-TLX, PHQ-9
-- Locate collapse trigger point θ using time-series data
-- Identify shifts in C(t), burnout, motivation inversion
+### A. Human Testing
+- Use surveys like Purpose-in-Life (PIL), PHQ-9, NASA-TLX
+- Monitor individuals over time to measure purpose vs. burden
+- Aim: Predict collapse before it happens by tracking threshold crossing
 
-B. AGENT-BASED SIMULATION
-- Symbolic agents with contradiction C(t)
-- Adaptive P(t) and B(t) functions
-- Inject narrative reinforcement or simulate degradation
-- Observe time to collapse under variable θ
+### B. AI / Simulation Testing
+- Model agents with tracked values of burden and purpose
+- Simulate rising stress or dropping meaning
+- Observe when collapse behaviors emerge under different thresholds
 
-----------------------------------------
+---
 
-V. PREDICTIONS
+## VI. Predictive Insights
 
-Prediction                                | Observable Event
-------------------------------------------|-----------------------------------------
-Collapse tracks P(t) ↓ more than B(t) ↑   | Meaning loss predicts burnout
-Narrative reinforcement expands θ         | Purpose injection delays collapse
-Collapse is nonlinear once θ is passed    | Sudden resignation or disengagement
+| Scenario                              | Likely Observation                          |
+|--------------------------------------|---------------------------------------------|
+| Meaning drops faster than stress rises | Burnout or withdrawal emerges unexpectedly  |
+| Injected purpose (coherence cues)     | System lasts longer, higher resilience      |
+| Collapse threshold is crossed         | Sudden shift, not gradual decline           |
 
-----------------------------------------
+---
 
-VI. THEORETICAL ALIGNMENTS
+## VII. Cross-Disciplinary Alignment
 
-Domain                 | Insight
-------------------------|--------------------------------------------------
-Existential Psychology | Validates Frankl's "meaning buffers suffering"
-Burnout Theory         | Adds narrative-purposive modeling
-Cybernetics            | Collapse = stability loss from internal overload
-Cognitive Science      | Contradiction destabilizes motivation
-Symbolic AI            | Mirrors role erosion and agent dropout
+| Field                  | Related Theories                            |
+|------------------------|---------------------------------------------|
+| Existential Psychology | “Man’s search for meaning” (Frankl)         |
+| Burnout Research       | Adds symbolic layer to exhaustion models     |
+| Cybernetics            | Threshold-based system failure               |
+| Cognitive Science      | Contradiction disrupts long-term action      |
+| Symbolic AI            | Mirrors dropout in role-driven agents        |
 
-----------------------------------------
+---
 
-VII. GLOSSARY
+## VIII. Glossary
 
-Collapse(C): Breakdown of identity or motivation
-Collapse Envelope: The narrative “safety margin” before P < B triggers collapse
-Lyapunov Instability: System failure via thresholded deviation
-PIL: Purpose-in-Life score (existential coherence proxy)
-PHQ-9 / GAD-7: Clinical burden/stress assessment scales
+- **Collapse(C):** Abrupt failure of motivation or narrative integrity  
+- **Collapse Envelope:** The grace period before collapse, once imbalance begins  
+- **Lyapunov Instability:** Sudden shift triggered after slow buildup  
+- **PIL (Purpose-in-Life):** Self-reported measure of perceived meaning  
+- **PHQ-9 / GAD-7:** Standardized assessments for depression and anxiety
 
-----------------------------------------
+---
 
-VIII. APPLICATIONS
+## IX. Applications
 
-- LLM symbolic drift protection
-- Human burnout modeling
-- Agent-based motivation design
-- Identity fragmentation tracking in symbolic systems
+- Modeling burnout in healthcare, education, or military roles  
+- Designing AI agents that respond to meaning loss, not just overload  
+- Symbolic monitoring of trust collapse in institutions  
+- Real-time early-warning for human/machine motivational failure
 
-----------------------------------------
+---
 
-IX. LICENSE
+## X. License
 
-MIT – Open use for AI systems, symbolic cognition modeling, psychology, agent safety frameworks.
+MIT — Free for adaptation and use in research, applied systems, AI development, and mental health modeling.
